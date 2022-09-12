@@ -18,8 +18,22 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="ShowLayoutBounds" class="ShowLayoutBounds" text="Prueba" description="prueba">
-            <add-to-group group-id="ToolsMenu" anchor="last"/>
-        </action>
+        <group
+            id="ui.pruebas.RevisionOpenApi"
+            class="ui.pruebas.RevisionOpenApi"
+            text="Pruebita"
+            description="Pruebita"
+            popup="true"
+        >
+            <add-to-group
+                    group-id="ToolsMenu"
+                    anchor="first"
+            />
+            <action
+                    id="ui.pruebas.ShowLayoutBounds"
+                    class="ui.pruebas.ShowLayoutBounds"
+                    text="accion1"
+                    description="accion1"/>
+        </group>
     </actions>
 </idea-plugin>
