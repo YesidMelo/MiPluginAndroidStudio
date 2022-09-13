@@ -30,10 +30,15 @@
                     anchor="first"
             />
             <action
-                    id="ui.pruebas.ShowLayoutBounds"
-                    class="ui.pruebas.ShowLayoutBounds"
+                    id="ui.pruebas.acciones.ShowLayoutBounds"
+                    class="ui.pruebas.acciones.ShowLayoutBounds"
                     text="accion1"
                     description="accion1"/>
+            <action
+                    id="ui.pruebas.acciones.AccionRevision"
+                    class="ui.pruebas.acciones.AccionRevision"
+                    text="revision proyecto"
+                    description="revision proyecto"/>
         </group>
     </actions>
 </idea-plugin>

@@ -1,4 +1,4 @@
-package ui.pruebas
+package ui.pruebas.acciones
 
 import com.intellij.notification.NotificationDisplayType
 import com.intellij.notification.NotificationGroup
