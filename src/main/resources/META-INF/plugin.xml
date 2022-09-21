@@ -39,6 +39,13 @@
                     class="ui.pruebas.acciones.AccionRevision"
                     text="revision proyecto"
                     description="revision proyecto"/>
+            <action
+                    id="ui.pruebas.acciones.OrganizadorCodigo"
+                    class="ui.pruebas.acciones.OrganizadorCodigo"
+                    text="Organizador Codigo"
+                    description="Organizador de codigo kotlin"/>
         </group>
+
+
     </actions>
 </idea-plugin>
