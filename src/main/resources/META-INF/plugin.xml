@@ -18,6 +18,7 @@
 
     <actions>
         <!-- Add your actions here -->
+        <!--
         <group
             id="ui.pruebas.RevisionOpenApi"
             class="ui.pruebas.RevisionOpenApi"
@@ -45,7 +46,24 @@
                     text="Organizador Codigo"
                     description="Organizador de codigo kotlin"/>
         </group>
-
+        -->
+        <group
+                id="ui.pruebas.accionesGeneradorArquitectura.GrupoGeneradorArquitecturas"
+                class="ui.pruebas.accionesGeneradorArquitectura.GrupoGeneradorArquitecturas"
+                text="Generador Arquitecturas"
+                description="Aqui generamos las estructuras y empaquetado de los proyectos basados en arquitecturas"
+                popup="true">
+            <add-to-group
+                    group-id="ToolsMenu"
+                    anchor="first"
+            />
+            <action
+                    id="ui.pruebas.accionesGeneradorArquitectura.acciones.AccionCrearCleanArquitectura"
+                    class="ui.pruebas.accionesGeneradorArquitectura.acciones.AccionCrearCleanArquitectura"
+                    text="Clean Architecture"
+                    description="Genera el empaquetado de una clean architecture"
+            />
+        </group>
 
     </actions>
 </idea-plugin>
